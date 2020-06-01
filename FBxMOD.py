@@ -6,6 +6,8 @@ import re
 import time
 import json
 import random
+import requests
+import mechamize
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 mbasic = 'https://mbasic.facebook.com{}'
