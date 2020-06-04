@@ -233,9 +233,9 @@ if __name__ == '__main__':
                                 for x in ss:
                                         listpass = [
                                                 b['first_name'] + '12345'
-                                                str(x) + '12345',
-                                                str(x) + '1234',
-                                                str(x) + '12',
+                                                b['first_name'] + '1234'
+                                                b['first_name'] + '123'
+                                                b['last_name'] + '123'
                                                 'sayang'
                                                 'doraemon'
                                                 'indonesia'
