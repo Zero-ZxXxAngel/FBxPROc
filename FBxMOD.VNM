@@ -11,22 +11,6 @@ from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 mbasic = 'https://mbasic.facebook.com{}'
 global die,check,result, count
-
-
-
-reload(sys)
-sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-
-def jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(0.07)
-
 id = []
 die = 0
 chek = []
@@ -35,9 +19,9 @@ count = 0
 check = 0
 result = 0
 
-jalan('\033[1;91mZero')
-jalan('\033[1;91mZxXx-Angel')
-jalan('\033[1;91mZalasXa')
+\033[1;91mZero')
+\033[1;91mZxXx-Angel')
+\033[1;91mZalasXa')
 def masuk():
         print('\n\n\t\t≺ \033[1;36m😘LOGIN FACEBOOK DULU GAN😘\033[0m ≻\n\n')
         try:
