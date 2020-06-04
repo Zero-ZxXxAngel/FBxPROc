@@ -11,6 +11,14 @@ from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor
 mbasic = 'https://mbasic.facebook.com{}'
 global die,check,result, count
+
+
+def jalan(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.07)
+
 id = []
 die = 0
 chek = []
@@ -18,12 +26,6 @@ life = []
 count = 0
 check = 0
 result = 0
-
-def jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(0.07)
 
    os.system("clear")
 
