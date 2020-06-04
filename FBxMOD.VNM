@@ -26,13 +26,9 @@ count = 0
 check = 0
 result = 0
 
-print
-   os.system("clear")
-
 jalan('\033[1;91mZero')
 jalan('\033[1;91mZxXx-Angel')
 jalan('\033[1;91mZalasXa')
-
 def masuk():
         print('\n\n\t\t≺ \033[1;36m😘LOGIN FACEBOOK DULU GAN😘\033[0m ≻\n\n')
         try:
