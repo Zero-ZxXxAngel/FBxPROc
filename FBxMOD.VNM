@@ -21,16 +21,6 @@ check = 0
 result = 0
 
 
-#!/usr/bin/python2
-# coding=utf-8
-
-
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
-from multiprocessing.pool import ThreadPool
-from requests.exceptions import ConnectionError
-from mechanize import Browser
-
-
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
@@ -67,40 +57,7 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.05)
-		
-		
-logo = """  
-\033[32;1m….._\____________________,,__.
-\033[32;1m…./ `–│││││││││———————-_]  (
-\033[32;1m…/_==o ______________________|
-\033[32;1m…..),—.(_(__) /
-\033[32;1m….// (\) ),——
-\033[32;1m…//___//
-\033[32;1m../`—-’ / …
-\033[32;1m./____ / …BY: Zero & ZxXx-Angel & ZalasXa
-\033[0;1m╔═══════════════════════════════════════════╗
-\033[0;1m║\033[33;1m* \033[34;1mInstagram  \033[1;93m: \033[0;1mzero_xvip  \033[1;93m                   
-\033[0;1m║\033[33;1m* \033[34;1mFacebook   \033[1;93m    : \033[0;1m\033[4mZero\033[0m \033[1;93m                  
-\033[0;1m║\033[33;1m* \033[34;1mWhatsApp   \033[1;93m : \033[0;1m\033[4m+6285320091382\033[0m \033[1;93m       
-\033[0;1m╚═══════════════════════════════════════════╝
-"""
 
-
-def tik():
-	titik = ['.   ','..  ','... ']
-	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mPlease Wait \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
-
-
-back = 0
-threads = []
-berhasil = []
-cekpoint = []
-oks = []
-id = []
-listgrup = []
-vulnot = "\033[31mNot Vuln"
-vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
