@@ -247,11 +247,11 @@ if __name__ == '__main__':
                                                 str(x) + '1234',
                                                 str(x) + '123',
                                                 str(x) + 'sayang',
-                                                str(x)'sayang',
-                                                str(x)'doraemon',
-                                                str(x)'indonesia',
-                                                str(x)'anjing',
-                                                str(x)'iloveyou',
+                                                'sayang',
+                                                'doraemon',
+                                                'indonesia',
+                                                'anjing',
+                                                'iloveyou',
                                                  ]
                                         listpass.append(expass)
                                         for passw in set(listpass):
