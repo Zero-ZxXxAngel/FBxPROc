@@ -22,14 +22,14 @@ result = 0
 def masuk():
         print('\n\n\t\t😘 \033[1;36mFBxMOD By:Zero & ZalasXa & ZxXx-Angel\033[0m 😘\n\n')
         print('\033[1;36m')
-        print('\033[1;36m____________     ____________ _____\033[0m')
-        print('\033[1;36m|  ___| ___ \    | ___ \ ___ \  _  | BY: Zero\033[0m')
-        print('\033[1;36m| |_  | |_/ /_  _| |_/ / |_/ / | | |   : ZalasXa\033[0m')
-        print('\033[1;36m|  _| | ___ \ \/ /  __/|    /| | | |   : ZxXx-Angel\033[0m')
-        print('\033[1;36m| |   | |_/ />  <| |   | |\ \\ \_/ /\033[0m')
-        print('\033[1;36m\_|   \____//_/\_\_|   \_| \_|\___/ Follow IG Saya: @zero_xvip\033[0m')
+        print('\t \033[1;36m____________     ____________ _____\033[0m')
+        print('\t \033[1;36m|  ___| ___ \    | ___ \ ___ \  _  | BY: Zero\033[0m')
+        print('\t \033[1;36m| |_  | |_/ /_  _| |_/ / |_/ / | | |   : ZalasXa\033[0m')
+        print('\t \033[1;36m|  _| | ___ \ \/ /  __/|    /| | | |   : ZxXx-Angel\033[0m')
+        print('\t \033[1;36m| |   | |_/ />  <| |   | |\ \\ \_/ / \033[0m')
+        print('\t \033[1;36m\_|   \____//_/\_\_|   \_| \_|\___/ Follow IG Saya: @zero_xvip\033[0m')
         print('\033[1;36m')
-        print('\n\t\033[1;36mLOGIN FACEBOOK MENGGUNAKAN COOKIE\033[0m \n')
+        print('\n\033[1;36mLOGIN FACEBOOK MENGGUNAKAN COOKIE\033[0m \n')
         try:
                 cek = open("cookies").read()
         except FileNotFoundError:
