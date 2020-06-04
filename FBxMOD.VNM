@@ -19,9 +19,9 @@ count = 0
 check = 0
 result = 0
 
-\033[1;91mZero')
-\033[1;91mZxXx-Angel')
-\033[1;91mZalasXa')
+\033[1;32mZero')
+\033[1;32mZxXx-Angel')
+\033[1;32mZalasXa')
 def masuk():
         print('\n\n\t\t≺ \033[1;36m😘LOGIN FACEBOOK DULU GAN😘\033[0m ≻\n\n')
         try:
