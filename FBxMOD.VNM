@@ -19,6 +19,10 @@ count = 0
 check = 0
 result = 0
 def masuk():
+print
+\033[1;35m  Zero
+\033[1;35m  ZxXx-Angel
+\033[1;35m  ZalasXa
         print('\n\n\t\t≺ \033[1;36m😘LOGIN FACEBOOK DULU GAN😘\033[0m ≻\n\n')
         try:
                 cek = open("cookies").read()
