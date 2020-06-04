@@ -12,7 +12,6 @@ from concurrent.futures import ThreadPoolExecutor
 mbasic = 'https://mbasic.facebook.com{}'
 global die,check,result, count
 
-
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
@@ -27,6 +26,7 @@ count = 0
 check = 0
 result = 0
 
+print
    os.system("clear")
 
 jalan('\033[1;91mZero')
