@@ -20,7 +20,7 @@ check = 0
 result = 0
 def masuk():
         print('\n\n\t\t≺ \033[1;36mFBxMOD By:ZxXx-Angel\033[0m ≻\n\n')
-                         \033[1;36mLOGIN FACEBOOK VIA COOKIE
+        print('\033[1;36mLOGIN FACEBOOK VIA COOKIE\033[0m')
         try:
                 cek = open("cookies").read()
         except FileNotFoundError:
