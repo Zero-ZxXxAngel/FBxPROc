@@ -19,9 +19,6 @@ count = 0
 check = 0
 result = 0
 
-
-###logo###
-print """
 \033[1;32mZero')
 \033[1;32mZxXx-Angel')
 \033[1;32mZalasXa')
