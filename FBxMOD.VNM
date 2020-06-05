@@ -159,13 +159,13 @@ if __name__ == '__main__':
                 kukis = masuk()
                 kuki = {'cookie':kukis}
                 os.system("clear")
-                print('\n\n\t\t≺ \033[1;36mFACEBOOK TOOLKIT\033[0m ≻\n\n')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m1\033[0m] Hack Dari Daftar Teman')
-                print('\033[1;91m┣━\033[0m [\033[1;32m2\033[0m] Hack Dari Like\033[1;91m ')
-                print('┣━ \033[0m[\033[1;32m3\033[0m] Hack Dengan Nama')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m4\033[0m] Hack Dari Grup (Error) ')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m5\033[0m] Hack Teman Dari Teman/Massal')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m6\033[0m] Lihat Hasil SebelumNya')
+                print('\n\n\t\t≺ \033[1;36m😘SILAHKAN DI PILIH 😘\033[0m ≻\n\n')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m1\033[0m] \033[1;94mHack Dar\033[1;92mi Daftar Teman')
+                print('\033[1;91m┣━\033[0m [\033[1;32m2\033[0m] \033[1;92mHack Dar\033[1;94mi Like\033[1;91m ')
+                print('┣━ \033[0m[\033[1;32m3\033[0m] \033[1;94mHack Den\033[1;92mgan Nama')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m4\033[0m] \033[1;92mHack Dar\033[1;94mi Grup (Error) ')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m5\033[0m] \033[1;94mHack Tem\033[1;92man Dari Teman/Massal')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m6\033[0m] \033[1;92mLihat Ha\033[1;94msil SebelumNya')
                 print('\033[1;91m┗\033[0m\n')
                 print()
                 tanya = input('\033[1;91m======> \033[1;94m')
@@ -189,7 +189,7 @@ if __name__ == '__main__':
                         if len(username) == 0:
                                 exit("# no result")
                 elif tanya == '4':
-                        print("# can only take 100 IDs ")
+                        print("# \033[1;91mSAYA SUDAH BILANG ERROR ")
                         grab = input("# ID group : ")
                         username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                         if len(username) == 0:
