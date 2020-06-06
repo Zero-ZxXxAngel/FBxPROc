@@ -169,7 +169,7 @@ if __name__ == '__main__':
                 kuki = {'cookie':kukis}
                 os.system("clear")
 
-mengetik('\033[1;91m           :--------------:')
+mengetik('\033[1;91m           /--------------:')
 mengetik('\033[1;91m        :-------------------::')
 mengetik('\033[1;91m      :-----------/shhOHbmp---::')
 mengetik('\033[1;91m    /-----------omMMMNNNMMD  ---:')
