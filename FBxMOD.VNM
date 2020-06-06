@@ -159,7 +159,11 @@ if __name__ == '__main__':
                 kukis = masuk()
                 kuki = {'cookie':kukis}
                 os.system("clear")
-                print('\n\n\t\t≺ \033[1;36m😘SILAHKAN DI PILIH 😘\033[0m ≻\n\n')
+                print('\033[
+                print('\033[
+                print('\033[
+                print('\033[
+                print('\033[1;94m≺ \033[1;36m😘SILAHKAN DI PILIH 😘\033[1;94m ≻')
                 print('\033[1;94m┣━\033[1;94m• \033[1;36m[\033[0m1\033[1;36m] \033[1;94m•\033[1;91mHack Dar\033[0mi Daftar Teman\033[1;94m•')
                 print('\033[1;94m┣━\033[1;94m• \033[1;36m[\033[0m2\033[1;36m] \033[1;94m•\033[0mHack Dar\033[1;91mi Like\033[1;94m•')
                 print('\033[1;94m┣━\033[1;94m• \033[1;36m[\033[0m3\033[1;36m] \033[1;94m•\033[1;91mHack Den\033[0mgan Nama\033[1;94m•')
