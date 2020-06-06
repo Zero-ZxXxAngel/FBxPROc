@@ -15,8 +15,8 @@ global die,check,result, count
 
 def jalan(z):
 	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
+		sysyem.stdout.write(e)
+		system.stdout.flush()
 		time.sleep(0.07)
 id = []
 die = 0
