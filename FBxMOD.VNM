@@ -27,7 +27,7 @@ life = []
 count = 0
 check = 0
 result = 0
-   def masuk():
+def masuk():
           print('\n\n\t\t< \033[1;36mMOD/RCD By:Zero & ZalasXa & ZxXx-Angel\033[0m >\n\n')
            print('\t \033[1;91m____________     ____________ _____  \033[1;92mJANGAN LUPA DI FOLLOW\033[0m')
            print('\t \033[1;91m|  ___| ___ \    | ___ \ ___ \  _  |  \033[1;92mFB: Zero\033[0m')
