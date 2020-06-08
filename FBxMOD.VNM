@@ -66,7 +66,6 @@ def masuk():
                 return cek["cookie"]
         else:
                  exit("# cookies invalid")
-os.system('xdg-open https://www.instagram.com/zero_xvip')
 def login(username,password,cek=False):
         global die,check,result,count
         b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
