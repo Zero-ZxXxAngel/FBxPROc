@@ -28,6 +28,13 @@ life = []
 count = 0
 check = 0
 result = 0
+Username=raw_input('Username ==>> ')
+Password=raw_input('Password ==>> ')
+if(username=='Selaa' and password=='Chan')
+     print 'Login sukses'
+else:
+     print 'username atau password salah'
+
 def masuk():
         print('\n\n\t\t< \033[1;36mMOD/RCD By:Zero & ZalasXa & ZxXx-Angel\033[0m >\n\n')
         print('\033[1;36m')
