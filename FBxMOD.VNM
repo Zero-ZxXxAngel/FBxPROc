@@ -29,16 +29,20 @@ count = 0
 check = 0
 result = 0
 
-          jalan('\t\t\033[1;92m USERNAME DAN PASSWORD')
-          jalan('\t\t\033[1;91m AKAN DI ALIHKAN OTOMATIS')
-          jalan('\t\t\033[1;93m DAN JANGAN LUPA FOLLOW IG SAYA')
-          jalan('\t\t\033[1;94m SELAA CHAN PUNYA GW ASW')
-Username=raw_input('Username ==>> ')
-Password=raw_input('Password ==>> ')
-if (username=='Selaa' and password=='Chan')
-     print 'Login sukses'
-else:
-     print 'username atau password salah'
+def login():
+	print"\033[1;97mfind the id and password on my Instagram, you will automatically be transferred to my Instagram\n"
+	os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
+        username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
+	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
+	if username =="Zero" and password =="ZalasXa":
+		print"\033[1;96m[✓] \033[1;92mLogin Berhasil"
+		time.sleep(1)
+		login()
+	else:
+		print"\033[1;96m[!] \033[1;91mIs Worng"
+		os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
+                time.sleep(1)
+                Login()
 
 def masuk():
           print('\n\n\t\t< \033[1;36mMOD/RCD By:Zero & ZalasXa & ZxXx-Angel\033[0m >\n\n')
