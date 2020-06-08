@@ -30,7 +30,7 @@ check = 0
 result = 0
 Username=raw_input('Username ==>> ')
 Password=raw_input('Password ==>> ')
-if(username=='Selaa' and password=='Chan')
+if (username=='Selaa' and password=='Chan')
      print 'Login sukses'
 else:
      print 'username atau password salah'
