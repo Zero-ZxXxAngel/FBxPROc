@@ -29,7 +29,7 @@ count = 0
 check = 0
 result = 0
 
-def login():
+def masuk():
 	print('\033[1;97mfind the id and password on my Instagram, you will automatically be transferred to my Instagram\n')
 	os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
         username = raw_input('\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m')
