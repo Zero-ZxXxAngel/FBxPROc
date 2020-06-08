@@ -7,6 +7,7 @@ import time
 import json
 import random
 import getpass
+import browser
 import sys
 import requests
 import mechanize
@@ -30,20 +31,6 @@ check = 0
 result = 0
 
 def masuk():
-	print('\033[1;97mfind the id and password on my Instagram, you will automatically be transferred to my Instagram\n')
-	os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
-        username = raw_input('\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m')
-	password = raw_input('\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m')
-	if username =="Zero" and password =="ZalasXa":
-		print('\033[1;96m[✓] \033[1;92mLogin Berhasil')
-		time.sleep(1)
-		masuk()
-	else:
-		print('\033[1;96m[!] \033[1;91mIs Worng')
-		os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
-                time.sleep(1)
-                masuk()
-
           print('\n\n\t\t< \033[1;36mMOD/RCD By:Zero & ZalasXa & ZxXx-Angel\033[0m >\n\n')
         print('\033[1;36m')
            print('\t \033[1;91m____________     ____________ _____  \033[1;92mJANGAN LUPA DI FOLLOW\033[0m')
@@ -79,6 +66,7 @@ def masuk():
                 return cek["cookie"]
         else:
                  exit("# cookies invalid")
+os.system('xdg-open https://www.instagram.com/zero_xvip')
 def login(username,password,cek=False):
         global die,check,result,count
         b = "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32"
