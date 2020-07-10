@@ -214,7 +214,7 @@ if __name__ == '__main__':
                 elif tanya == '4':
                         print("# \033[1;91mSAYA SUDAH BILANG ERROR ")
                         grab = input("# ID group : ")
-                        username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
+                        username = grubid(mbasic.format('/browse/group/members/?id='+grab))
                         if len(username) == 0:
                                 exit("# ID Tidak Ada")
                 elif tanya == '5':
